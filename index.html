@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>FirefoxOS Homescreen Boilerplate</title>
+    <meta name="theme-color" content="transparent">
+    <link rel="stylesheet" href="style/css/apps.css">
+    <link rel="stylesheet" href="style/css/search.css">
+    <script defer src="js/app_manager.js"></script>
+    <script defer src="js/apps.js"></script>
+    <script defer src="js/search.js"></script>
+  </head>
+  <body>
+    <div id="grid" class="scrollable">
+      <div id="search" role="button" aria-labelledby="search-input" aria-haspopup="true">
+        <form id="search-form">
+          <input id="search-input" type="text" x-inputmode="verbatim" role="presentation"
+            placeholder="Search or enter address" data-l10n-id="search-or-enter-address" value="" dir="auto">
+          </input>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

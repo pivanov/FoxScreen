@@ -1,0 +1,31 @@
+{
+  "name": "FoxScreen",
+  "description": "FoxScreen",
+  "launch_path": "/index.html",
+  "type": "certified",
+  "role": "homescreen",
+  "developer": {
+    "name": "Kevin Grandon",
+    "url": "https://github.com/kevingrandon/"
+  },
+  "permissions": {
+    "webapps-manage":{}
+  },
+  "locales": {
+    "en-US": {
+      "name": "FoxScreen",
+      "description": "FoxScreen"
+    }
+  },
+  "default_locale": "en-US",
+  "icons": {
+    "84": "/style/icons/foxscreen_84.png",
+    "128": "/style/icons/foxscreen_126.png",
+    "142": "/style/icons/foxscreen_142.png",
+    "189": "/style/icons/foxscreen_189.png",
+    "284": "/style/icons/foxscreen_284.png"
+  },
+  "orientation": "portrait-primary",
+  "activities": {},
+  "messages": []
+}
